@@ -3,7 +3,7 @@ Simple script for creating RAM Disk in OSX.
 
 # Usage
 	
-	./RamDisk 'RAM Disk' 1
+	RamDisk 'RAM Disk' 1
 
 Where
 
