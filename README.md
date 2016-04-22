@@ -13,3 +13,7 @@ Where
 # Installation
 
 	curl -s https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/install.sh | bash
+
+# UnInstallation
+
+	curl -s https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/uninstall.sh | bash
