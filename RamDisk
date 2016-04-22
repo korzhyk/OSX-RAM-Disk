@@ -1,0 +1,25 @@
+#!/bin/bash
+#
+# Usage ./RamDisk 'RAM Disk' 7812500
+# 'RAM Disk' - name of mounted disk
+# 7812500 - size of disk in sectors (1 sector = 512 bytes)
+#
+
+NAME="RAM Disk"
+SIZE=7812500 #4 GB (4 000 000 000 / 512 sector size)
+
+while [ ! -d /Volumes ]
+do
+    echo "waiting..."
+    sleep 1
+done
+
+if [ ! $1 = '' ]; then NAME=$1; fi
+if [ ! $2 = '' ]; then SIZE=$2; fi
+
+if [ ! -d /Volumes/"$NAME" ]; then
+    echo "creating $NAME with ..."
+    diskutil erasevolume HFS+ "$NAME" `hdiutil attach -nomount ram://$SIZE` 
+fi
+
+exit
