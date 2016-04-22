@@ -4,7 +4,7 @@
 <dict>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/Library/RamDisk</string>	
+		<string>/usr/local/bin/RamDisk</string>	
 		<string>RAM Disk</string>
 		<string>1</string>
 	</array>
