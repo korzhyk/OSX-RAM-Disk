@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /usr/local/Library/
+cd /usr/local/bin/
 curl -o RamDisk https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/RamDisk
 chmod 755 RamDisk
 
