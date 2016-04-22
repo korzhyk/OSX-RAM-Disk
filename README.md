@@ -17,3 +17,7 @@ Where
 # Uninstall
 
 	curl -s https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/uninstall.sh | bash
+
+# Edit settings
+
+	sudo open /Library/LaunchDaemons/com.ramdisk.plist
