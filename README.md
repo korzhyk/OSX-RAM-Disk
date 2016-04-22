@@ -8,6 +8,7 @@ Simple script for creating RAM Disk in OSX.
 Where
 
 `'RAM Disk'` - Name of ramdisk
+
 `1` - Size in gibytes
 
 # Install
