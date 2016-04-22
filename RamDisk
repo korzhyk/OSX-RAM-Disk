@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Usage ./RamDisk 'RAM Disk' 7812500
+# Usage ./RamDisk 'RAM Disk' 4
 # 'RAM Disk' - name of mounted disk
-# 7812500 - size of disk in sectors (1 sector = 512 bytes)
+# 4 - size of disk in gigabytes
 #
 
 NAME="RAM Disk"
@@ -15,10 +15,10 @@ do
 done
 
 if [ ! $1 = '' ]; then NAME=$1; fi
-if [ ! $2 = '' ]; then SIZE=$2; fi
+if [ ! $2 = '' ]; then SIZE=$(($2 * 1000000000 / 512)); fi
 
 if [ ! -d /Volumes/"$NAME" ]; then
-    echo "creating $NAME with ..."
+    echo "creating $NAME with $SIZE sectors..."
     diskutil erasevolume HFS+ "$NAME" `hdiutil attach -nomount ram://$SIZE` 
 fi
 

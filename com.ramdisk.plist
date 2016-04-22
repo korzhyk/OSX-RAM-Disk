@@ -5,6 +5,8 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/Library/RamDisk</string>	
+		<string>RAM Disk</string>
+		<string>1</string>
 	</array>
 	<key>Label</key>
 	<string>com.ramdisk</string>
