@@ -10,10 +10,10 @@ Where
 `'RAM Disk'` - Name of ramdisk
 `7812500` - Size in sectors (1 sector = 512 bytes)
 
-# Installation
+# Install
 
 	curl -s https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/install.sh | bash
 
-# UnInstallation
+# Uninstall
 
 	curl -s https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/uninstall.sh | bash
