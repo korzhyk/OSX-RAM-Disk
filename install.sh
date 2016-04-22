@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd /usr/local/bin/
-curl -o RamDisk https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/RamDisk
+sudo mkdir -p /usr/local/bin
+curl -o /usr/local/bin/RamDisk https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/RamDisk
 chmod 755 RamDisk
 
 cd /Library/LaunchDaemons/
