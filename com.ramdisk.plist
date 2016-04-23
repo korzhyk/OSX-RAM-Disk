@@ -10,8 +10,6 @@
 	</array>
 	<key>Label</key>
 	<string>com.ramdisk</string>
-    <key>KeepAlive</key>
-    <false/>
 	<key>RunAtLoad</key>
 	<true/>
 </dict>
