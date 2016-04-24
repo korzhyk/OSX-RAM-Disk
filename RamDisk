@@ -14,8 +14,8 @@ do
     sleep 1
 done
 
-if [ ! $1 = '' ]; then NAME=$1; fi
-if [ ! $2 = '' ]; then SIZE=$(($2 * 1000000000 / 512)); fi
+if [ -n "$1" ]; then NAME="$1"; fi
+if [ -n "$2" ]; then SIZE=$(($2 * 1000000000 / 512)); fi
 
 if [ ! -d /Volumes/"$NAME" ]; then
     echo "creating $NAME with $SIZE sectors..."
