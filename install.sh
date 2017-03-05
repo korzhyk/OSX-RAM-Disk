@@ -6,7 +6,7 @@ if [ ! -d $BIN_DIR ]; then
   sudo mkdir -p "$DIR"
 fi
 
-BIN="$BIN_DIR/RamDisk"
+BIN="$DIR/RamDisk"
 if [ ! -f $BIN ]; then
   echo "🚚 Download binary"
   sudo curl -o "$BIN" https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/RamDisk
