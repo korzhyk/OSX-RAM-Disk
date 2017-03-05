@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR="/usr/local/bin"
-if [ ! -d $BIN_DIR ]; then
+if [ ! -d $DIR ]; then
   echo "🚧 Make directory for binary file"
   sudo mkdir -p "$DIR"
 fi
