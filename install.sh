@@ -2,7 +2,7 @@
 
 sudo mkdir -p /usr/local/bin
 sudo curl -o /usr/local/bin/RamDisk https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/RamDisk
-sudo chmod 755 RamDisk
+sudo chmod 755 /usr/local/bin/RamDisk
 
 cd /Library/LaunchAgents/
 sudo curl -o com.ramdisk.plist https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/com.ramdisk.plist
