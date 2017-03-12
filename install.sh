@@ -14,7 +14,7 @@ fi
 
 sudo chmod 755 "$BIN"
 
-PLIST="/Library/LaunchAgents/com.ramdisk.plist"
+PLIST="~/Library/LaunchAgents/com.ramdisk.plist"
 if [ ! -f $PLIST ]; then
   echo "🚚 Download plist"
   sudo curl -o "$PLIST" https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/com.ramdisk.plist
