@@ -21,4 +21,4 @@ Where
 
 # Edit settings
 
-	sudo open /Library/LaunchDaemons/com.ramdisk.plist
+	open ~/Library/LaunchDaemons/com.ramdisk.plist
