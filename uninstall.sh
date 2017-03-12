@@ -1,6 +1,6 @@
 #!/bin/bash
 
 sudo rm /usr/local/bin/RamDisk
-sudo rm /Library/LaunchAgents/com.ramdisk.plist
+sudo rm ~/Library/LaunchAgents/com.ramdisk.plist
 
 exit
