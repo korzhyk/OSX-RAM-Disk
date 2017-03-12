@@ -13,7 +13,7 @@ if [ ! -f $BIN ]; then
   curl -o "$BIN" https://raw.githubusercontent.com/korzhyk/OSX-RAM-Disk/master/RamDisk
 fi
 
-sudo chmod 755 "$BIN"
+chmod 755 "$BIN"
 
 PLIST="~/Library/LaunchAgents/com.ramdisk.plist"
 if [ ! -f $PLIST ]; then
