@@ -21,4 +21,4 @@ Where
 
 # Edit settings
 
-	open ~/Library/LaunchDaemons/com.ramdisk.plist
+	open ~/Library/LaunchAgents/com.ramdisk.plist
